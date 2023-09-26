@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+  </head>
+  <body>
+    <fieldset>
+      <legend>Sign Up</legend>
+      <form action="#" method="get">
+        <div>
+          <label for="fname">First Name</label>
+          <input
+            type="text"
+            name="First Name"
+            id="fname"
+            placeholder="first name"
+            minlength="3"
+            required
+          />
+        </div>
+        <div>
+          <label for="lname">Last Name</label>
+          <input
+            type="text"
+            name="Last Name"
+            id="lname"
+            placeholder="last name"
+            minlength="3"
+            required
+          />
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="Email"
+            id="email"
+            placeholder="email"
+            minlength="3"
+            required
+          />
+        </div>
+        <div>
+          <label for="password">Password</label>
+          <input
+            type="password"
+            name="Password"
+            id="password"
+            placeholder="password"
+            required
+          />
+        </div>
+        <div>
+          <label for="confirm-password">Confirm Password</label>
+          <input
+            type="password"
+            name="Confirm Password"
+            id="confirm-password"
+            placeholder="confirm password"
+            required
+          />
+        </div>
+        <div>
+          <label for="age">Age</label>
+          <input
+            type="number"
+            name="Age"
+            id="age"
+            min="0"
+            max="150"
+            placeholder="age"
+            required
+          />
+        </div>
+        <div>
+          Gender:
+          <label for="male">Male</label>
+          <input type="radio" name="Gender" id="male" />
+          <label for="female">Female</label>
+          <input type="radio" name="Gender" id="female" />
+          <label for="other">Other</label>
+          <input type="radio" name="Gender" id="other" />
+        </div>
+        <div>
+          <label for="agree">agree to terms and conditions</label>
+          <input type="checkbox" name="Agree" id="agree" />
+        </div>
+        <input type="submit" value="SignUp" />
+      </form>
+    </fieldset>
+  </body>
+</html>
